@@ -6,7 +6,8 @@ import os
 from PyQt6.QtGui import QGradient
 
 folder = "Files"
-file = "moedas.jpg"
+#file = "moedas.jpg"
+file = "baboon.png"
 
 image = cv2.imread(os.path.join(folder, file))
 cv2.imshow("image", image)
